@@ -3,6 +3,7 @@ import yfinance as yf
 
 app = Flask(__name__)
 
+# this is something
 @app.route('/price/<ticker>')
 def get_price(ticker):
     try:
